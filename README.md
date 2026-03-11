@@ -1,16 +1,39 @@
-# React + Vite
+## PlatoClick - Proyecto Final Geraldine Ramirez 
+Aplicación web para explorar restaurantes, sus platos, pedidos y clientes.
+Desarrollada con React + Vite y desplegada en GitHub Pages.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Ver en Producción
+Accede directamente desde el navegador:
+👉 https://psicodermind.github.io/proyectofinal_restaurante1000/ 
+No necesitas instalar nada.
 
-Currently, two official plugins are available:
+💻 Ejecutar en Local
+Requisitos previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Node.js instalado
+Docker instalado
 
-## React Compiler
+Pasos
+1. Levantar el Docker
+docker compose up -d
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Ejecutar en modo desarrollo
+npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Desplegar en Producción
+Desde la carpeta restaurante-frontend/:
+npm run deploy
+
+
+Tecnologías
+
+React 19
+Vite 7
+React Router DOM
+React Bootstrap
+GitHub Pages (gh-pages)
+
+
+ Autora
+Geraldine Ramírez Hernández
