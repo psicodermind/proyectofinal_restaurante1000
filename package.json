@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://psicodermind.github.io/proyecto_finalrestaurante",
+  "homepage": "https://psicodermind.github.io/proyectofinal_restaurante1000",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

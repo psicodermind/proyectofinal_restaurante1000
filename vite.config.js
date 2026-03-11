@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/proyecto_finalrestaurante/'
+  base: command === 'build' ? '/proyectofinal_restaurante1000/' : '/'
 }))
