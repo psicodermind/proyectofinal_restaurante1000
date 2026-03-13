@@ -115,7 +115,7 @@ const RestaurantDetail = () => {
                             <tr>
                                 <th>ID Pedido</th>
                                 <th>Fecha</th>
-                                <th>ID Cliente</th>
+                                <th>Cliente</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -123,7 +123,7 @@ const RestaurantDetail = () => {
                                 <tr key={order.pedidoID}>
                                     <td>{order.pedidoID}</td>
                                     <td>{new Date(order.fecha).toLocaleDateString()}</td>
-                                    <td>{order.clienteID}</td>
+                                    <td>{data.customers.find(c => c.clienteID === order.clienteID)?.nombre} {data.customers.find(c => c.clienteID === order.clienteID)?.apellido1}</td>
                                 </tr>
                             ))}
                         </tbody>
